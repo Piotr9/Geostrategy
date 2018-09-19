@@ -1,0 +1,243 @@
+body
+{
+    background-image: url(img/maps.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-size: contain;
+	color: #efefef;
+	font-family: 'Lato', sans-serif;
+    font-size: 17px;
+}
+
+a:visited, a:link, a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+
+#logo
+{
+    width: 100%;
+    color: rgba(255,255,255,0.5);
+    filter: alpha(opacity=50);
+    padding-bottom: 40px;
+    padding-top: 40px;
+	font-size: 46px;
+	letter-spacing: 3px;
+	font-weight:900;
+	text-align: center;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+}
+
+.gb
+{
+    font-size: 40px;
+	float: left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.gb:hover{
+    transform: scale(1.2);
+}
+
+.nav
+{
+	width: 100%;
+	padding: 10px 0;
+    margin: auto;
+	background-image: url(img/cobble.png);
+    background-size: contain;
+	text-align: center;
+	border-top: 1px solid #751b1b;
+	border-bottom: 1px solid #751b1b;
+    border-radius: 0 0 15px 15px;
+}
+
+section{
+    width: 80%;
+    background-image: url(img/vintage.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px auto auto;
+    border-radius: 15px;
+}
+
+header
+{
+    width: 100%;
+    margin: auto;
+    font-size: 26px;
+    color: black;
+}
+
+h1
+{
+    padding-top: 8px;
+	font-size: 36px;
+	font-weight: 900;
+	margin: 10px;
+    text-align: center;
+}
+
+.channels
+{
+	text-align: center;
+    font-size: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.channels img
+{
+	width: 100%;
+	height: auto;
+    border-radius: 250px;
+    border: 12px double #BB8451;
+}
+
+.channels img:hover{
+    filter: brightness(70%);
+}
+
+.channels p
+{
+	margin-bottom: 30px;
+}
+
+.channels figcaption
+{
+	margin-top: 8px;
+    color: black;
+}
+
+/*---------------------footer--------------------------*/
+.socials
+{
+    width: 100%;
+	background-color: #292929;
+	text-align: center;
+    margin-top: 20px;
+}
+.socialdivs
+{
+	width: 80%;
+    font-size: 70px;
+    margin: auto;
+}
+.fb
+{
+	width: 33%;
+	height: 100px;
+	float: left;
+}
+.fb:hover
+{
+	background-color: #4668b3;
+}
+.yt
+{
+	width: 34%;
+	height: 100px;
+	float: left;
+}
+.yt:hover
+{
+	background-color: #d94348;
+}
+.tt
+{
+	width: 33%;
+	height: 100px;
+	float: left;
+}
+.tt:hover
+{
+	background-color: #3095d3;
+}
+.footer
+{
+    width: 100%;
+	text-align: center;
+	background-color: #222222;
+	padding: 20px;
+}
+/*---------------------footer--------------------------*/
+        /*-------------------------------------sticky-------------------------------*/
+.sticky
+{
+	width: 85%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin: auto;
+    text-align: center;
+    padding: 10px 0;
+	top: 0;
+	z-index: 100;
+}
+ol
+{
+	padding: 0;
+	margin: auto;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+ol a
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+ol >li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #751b1b;	
+}
+ol > li:first-child
+{
+	border-left: 1px dashed #751b1b;
+}
+ol > li:hover
+{
+	background-color: saddlebrown;
+}
+ol > li:hover > a
+{
+	color: #451717;
+}
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+ol > li > ul > li
+{
+	background-color: saddlebrown;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #751b1b;
+}
+ol > li > ul > li:hover
+{
+	background-color: #c34f4f;
+}
+ol > li > ul > li:hover > a
+{
+	background-color: #451717;
+}
+ol > li:hover > ul
+{
+	display: block;
+}
+          /*-------------------------------sticky--------------------------------*/
